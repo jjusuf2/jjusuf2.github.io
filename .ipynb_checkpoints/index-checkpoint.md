@@ -4,11 +4,20 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+[Link to another page](./_posts/2025-01-28-welcome-to-jekyll.md).
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+# Blogs
+{% for post in site.posts %}
+<ul>
+ 
+<li><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></li>
+ 
+</ul>
+{% endfor %}
 
 # Header 1
 
@@ -19,6 +28,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
+
+$$3x+5$$
 
 ### Header 3
 

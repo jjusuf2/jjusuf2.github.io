@@ -18,10 +18,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-# for Cayman theme
-source 'https://rubygems.org'
-gem 'github-pages'
-
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
@@ -37,3 +33,13 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.9"
+
+gem "base64", "~> 0.2.0"
+
+gem "bigdecimal", "~> 3.1"
+
+gem "jekyll-paginate", "~> 1.1"
+
+gem "kramdown-parser-gfm", "~> 1.1"
+
+gem "logger", "~> 1.6"
