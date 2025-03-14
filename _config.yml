@@ -1,7 +1,7 @@
 # Setup
-title:               james' quicknotes
-tagline:             'resource for computational biology'
-description:         'This website contains my personal collection of notes for computational biology, especially for 3D genomics analyses.'
+title:               HLCGN
+tagline:             'Hansen Lab Computational Genomics Notes'
+description:         'Helpful notes for computational analysis of 3D genomics data.'
 baseurl:             ''
 paginate:            5
 permalink:           pretty
